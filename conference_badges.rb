@@ -19,5 +19,5 @@ end
 def printer(attendees)
   r = []
   r.push(attendees.each {|x| puts x})
-  returnr
+  return r
 end 
