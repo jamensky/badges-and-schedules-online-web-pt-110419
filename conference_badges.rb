@@ -17,5 +17,5 @@ def assign_rooms(room)
 end 
 
 def printer(attendees)
- push(attendees.each {|x| puts x})
+ attendees.each {|x| puts x}
 end 
