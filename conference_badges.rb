@@ -17,8 +17,6 @@ def assign_rooms(room)
 end 
 
 def printer(batch_badge_creator, assign_rooms)
-  t = []
-  t.push(batch_badge_creator.each {|x| puts x})
-  t.push(assign_rooms.each {|y| puts y})
-  return t
+  batch_badge_creator.each {|x| puts x}
+  assign_rooms.each {|y| puts y}
 end 
